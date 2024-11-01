@@ -62,4 +62,8 @@ app.use("/api/shop/search", shopSearchRouter);
 
 app.use("/api/common/feature", commonFeatureRouter);
 
+app.get("/", (req, res) => {
+  return res.status(200).send("<h1>Welcome to  Node Server Ecommerce App</h1>");
+});
+
 app.listen(PORT, () => console.log(`Server is now running on port ${PORT}`));
