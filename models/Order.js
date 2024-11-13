@@ -7,7 +7,7 @@ const InquirySchema = new mongoose.Schema(
         productId: { type: String, required: true },
         img: { type: String },
         title: { type: String },
-        price: { type: Number, required: true },
+        price: { type: String, required: true },
         quantity: { type: Number, required: true },
       },
     ],
