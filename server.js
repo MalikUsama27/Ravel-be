@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://helpful-twilight-3366e0.netlify.app",
+    origin: "http://revel-industry.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
